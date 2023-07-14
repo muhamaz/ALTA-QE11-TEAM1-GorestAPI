@@ -36,14 +36,4 @@ public class PostCreateTodosSteps {
                 .body(GorestResponses.ERROR_UPDATE_TODOS, equalTo(errorMessage));
     }
 
-    @Then("Status code should be {int} Unprocessable Entity")
-    public void statusCodeShouldBeUnprocessableEntity(int unprocessableEntity) {
-        SerenityRest.then().statusCode(unprocessableEntity);
-
-    }
-
-    @Then("Status code should be {int} Not Found")
-    public void statusCodeShouldBeNotFound(int notFound) {
-        SerenityRest.then().statusCode(notFound);
-    }
 }

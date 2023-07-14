@@ -22,18 +22,4 @@ public class GetSingleTodosSteps {
                 .get(GorestAPI.GET_SINGLE_TODOS);
     }
 
-    @Then("Status code should be {int} Created")
-    public void statusCodeShouldBeCreated(int created) {
-        SerenityRest.then().statusCode(created);
-    }
-
-    @Then("Status code should be {int} OK")
-    public void statusCodeShouldBeOK(int ok) {
-        SerenityRest.then().statusCode(ok);
-    }
-
-    @Then("Status code should be {int} No Content")
-    public void statusCodeShouldBeNoContent(int noContent) {
-        SerenityRest.then().statusCode(noContent);
-    }
 }
