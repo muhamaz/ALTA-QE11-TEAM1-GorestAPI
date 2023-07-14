@@ -19,4 +19,6 @@ public class Constants {
 
     public static String REQ_BODY_TODOS = JSON + "/ReqBody/todos/";
     public static String JSON_SCHEMA_TODOS = JSON + "/JSONSchema/todos/";
+
+
 }
