@@ -24,8 +24,8 @@ public class PostCreateCommentSteps {
         gorestAPI.postCreateNewComment(id, json);
     }
 
-    @When("Send POST Create new comment")
-    public void sendPOSTCreateNewComment() {
+    @When("Send request POST Create new comment")
+    public void sendRequestPOSTCreateNewComment() {
         SerenityRest.when()
                 .post(GorestAPI.POST_CREATE_NEW_COMMENTS);
     }
