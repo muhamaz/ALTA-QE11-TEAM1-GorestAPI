@@ -20,8 +20,8 @@ public class GetSingleCommentSteps {
         gorestAPI.getSingleComment(id);
     }
 
-    @When("Send GET Single comment")
-    public void sendGETSingleComment() {
+    @When("Send request GET Single comment")
+    public void sendRequestGETSingleComment() {
         SerenityRest.when()
                 .get(GorestAPI.GET_SINGLE_COMMENTS);
     }

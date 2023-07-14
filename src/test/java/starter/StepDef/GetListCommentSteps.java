@@ -22,8 +22,8 @@ public class GetListCommentSteps {
         gorestAPI.getListComment(path);
     }
 
-    @When("Send GET list comment")
-    public void sendGETListComment() {
+    @When("Send request GET list comment")
+    public void sendRequestGETListComment() {
         SerenityRest.when()
                 .get(GorestAPI.GET_LIST_COMMENTS);
     }
@@ -45,7 +45,7 @@ public class GetListCommentSteps {
                 .statusCode(statusCode);
     }
 
-    @And("Validate with JSON Schema {string}")
+    @And("Validate comment feature with JSON Schema {string}")
     public void validateWithJSONSchema(String jsonSchName) {
         File jsonSch = new File(Constants.JSON_SCHEMA_COMMENTS + ""+jsonSchName+"");
         SerenityRest.and()
