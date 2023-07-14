@@ -13,6 +13,8 @@ public class GorestAPI {
     public static String GET_LIST_COMMENTS = Constants.BASE_URL + "/public/v2/{path}";
     public static String GET_SINGLE_COMMENTS = Constants.BASE_URL + "/public/v2/comments/{id}";
     public static String POST_CREATE_NEW_COMMENTS = Constants.BASE_URL + "/public/v2/posts/{id}/comments";
+    public static String PUT_UPDATE_COMMENTS = Constants.BASE_URL + "/public/v2/comments/{id}";
+    public static String DELETE_COMMENT = Constants.BASE_URL + "/public/v2/comments/{id}";
 
 
     @Step("GET List Comment")
@@ -35,6 +37,22 @@ public class GorestAPI {
                 .pathParam("id", id)
                 .contentType(ContentType.JSON)
                 .body(json);
+    }
+
+    @Step("Put Update Comment")
+    public void putUpdateComment(int id, File json){
+        SerenityRest.given()
+                .header("Authorization", "Bearer " + TOKEN)
+                .pathParam("id", id)
+                .contentType(ContentType.JSON)
+                .body(json);
+    }
+
+    @Step()
+    public void deleteComment(int id){
+        SerenityRest.given()
+                .header("Authorization", "Bearer " + TOKEN)
+                .pathParam("id", id);
     }
 
 }

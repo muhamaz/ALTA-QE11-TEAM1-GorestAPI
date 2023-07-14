@@ -11,6 +11,5 @@ public class Constants {
     public static String REQ_BODY_COMMENTS = JSON + "/ReqBody/comments/";
     public static String JSON_SCHEMA_COMMENTS = JSON + "/JSONSchema/comments/";
 
-    public static String REQ_BODY_POSTS = JSON + "/ReqBody/posts/";
 
 }
