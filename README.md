@@ -18,37 +18,34 @@
 
 ## 📑 About the Project
 
-<p align="justify">"Middleman" functions as inventory, which is the stock of materials or goods that are stored for a specific purpose. Within this platform, users have the opportunity for the processes of searching, storing, and selling inventory—both raw materials and finished products—in a systematic manner.</p>
+<p align="justify">GoREST API is a simple and user-friendly web tool that helps developers work with data on the internet. It provides a RESTful interface for performing basic CRUD (Create, Read, Update, Delete) operations on resources, making it easy to interact with data stored on a server.This makes it useful for building apps that need to talk to a server. GoREST API follows some rules that make it easy to use and good for modern apps.</p>
 
 ## 📑 API Testing- Middleman
 
-<p align="justify">This project was created to complete a Capstone project in the Batch 11 Quality Assurance class at the Alterra Academy Immersive Program. At this project, we perform an API Automation Testing for 8 resources or end points (Authentication, Users, Admin_Product, Carts, Inoutbounds, Inventories, Orders).</p>
+<p align="justify">This project was created to complete a Group project in the Batch 11 Quality Assurance class at the Alterra Academy Immersive Program. At this project, we perform an API Automation Testing for 4 resources or end points (Users, Posts, Comments, Todos).</p>
 
 ## 📓 Testing Documentation
-//[Test Case API](https://docs.google.com/spreadsheets/d/15vAlKOratoFm_b7SgAjNHDpqaYuoZuMlsEd0fIakkxI/edit#gid=0)
+[Test Case API](https://docs.google.com/spreadsheets/d/1ipXm6ZpN7PKkvLjxSkkp3SF01KVSJT_ko8NUclTVVAI/edit#gid=1876454154)
 
 ## 📝 Reports
 
 
 #### Summary Report
-//![report-api-summary](https://github.com/Capstone-Group-3-Middleman/Middleman-API/blob/master/images/2%20API.png)
+![report-api-summary](https://github.com/muhamaz/ALTA-QE11-TEAM1-GorestAPI/blob/master/img/sumreport.png)
 
 #### Coverage Report
-//![report-api-cpverage](https://github.com/Capstone-Group-3-Middleman/Middleman-API/blob/master/images/4%20API.PNG)
+![report-api-cpverage](https://github.com/muhamaz/ALTA-QE11-TEAM1-GorestAPI/blob/master/img/coverage.png)
 
 #### Test Documentation Spreadsheet
-//![report-api-chats](https://github.com/Capstone-Group-3-Middleman/Middleman-API/blob/master/images/5%20API.PNG)
+![report-api-chats](https://github.com/muhamaz/ALTA-QE11-TEAM1-GorestAPI/blob/master/img/testdoc.png)
 
 #### Automation Testing When Run in Intellij IDE
-//![report-api-runningtest](https://github.com/Capstone-Group-3-Middleman/Middleman-API/blob/master/images/3%20API.PNG)
-
-#### Manual Testing When Run in Postman
-//![report-api-runningtest](https://github.com/Capstone-Group-3-Middleman/Middleman-API/blob/master/images/1%20API.png)
+![report-api-runningtest](https://github.com/muhamaz/ALTA-QE11-TEAM1-GorestAPI/blob/master/img/runnning.png)
 
 ## 🛠 Tools
 **Manual:**
 
-//![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 **Automation:**  
 ![IntellijIDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
@@ -72,7 +69,7 @@
 
 1. Clone the repository
 ```bash
-  $ git clone https://github.com/Capstone-Group-3-Middleman/Middleman-API.git
+  $ git clone https://github.com/muhamaz/ALTA-QE11-TEAM1-GorestAPI.git
 ```
 2. Open  this Project Repository on Intellij IDE and Run this on the IDE terminal
 
@@ -83,11 +80,17 @@
 
 ## 📱 Our teams
 
-  [![LinkedIn](https://img.shields.io/badge/-MHumam%20Zaky-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/muhammad-humam-zaky-139369170/)
-  [![GitHub](https://img.shields.io/badge/-MhumamZaky-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/muhamaz)
+  [![LinkedIn](https://img.shields.io/badge/-Muhammad%20Humam%20Zaky-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/muhammad-humam-zaky-139369170/)
+  [![GitHub](https://img.shields.io/badge/-Muhammad%20Humam%20Zaky-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/muhamaz)
 
- // [![LinkedIn](https://img.shields.io/badge/-Aditya%20Dwi%20Irawan-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/aditya-dwi-irawan/)
- // [![GitHub](https://img.shields.io/badge/-AdityaDwiIrawan-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Adityadi195)
+ [![LinkedIn](https://img.shields.io/badge/-Tris%20Jansen%20Lumban%20Toruan-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/trisjansen/)
+ [![GitHub](https://img.shields.io/badge/-Tris%20Jansen%20Lumban%20Toruan-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/TrisJansen)
+
+ [![LinkedIn](https://img.shields.io/badge/-Dita%20Rahmayanti-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/dita-rahmayanti-5658a8163/)
+ [![GitHub](https://img.shields.io/badge/-Dita%20Rahmayanti-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Dirayadita)
+
+  [![LinkedIn](https://img.shields.io/badge/-Sandy%20Tri%20Saputra-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/sandy-a3834b21b/)
+ [![GitHub](https://img.shields.io/badge/-Sandy%20Tri%20Saputra-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/sandyotong)
 
 
 
