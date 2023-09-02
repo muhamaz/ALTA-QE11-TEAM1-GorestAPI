@@ -2,7 +2,7 @@
 <div>
 <p align="center">
   <a href="https://gorest.co.in/">
-    <img src="https://imgur.com/y9rVnwn">
+    <img src="https://github.com/muhamaz/ALTA-QE11-TEAM1-GorestAPI/blob/master/img/logo.png" height="100">
   </a>
   <br/>
     <br/>
