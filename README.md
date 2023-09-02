@@ -10,7 +10,7 @@
   <br />
     Group Project
   <br />
-    <a href=""https://gorest.co.in"><strong>| Gorest API Documentation |</strong></a>
+    <a href="https://gorest.co.in/"><strong>| Gorest API Documentation |</strong></a>
   <br />
   <br />
 </p>
