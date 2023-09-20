@@ -20,7 +20,7 @@
 
 <p align="justify">GoREST API is a simple and user-friendly web tool that helps developers work with data on the internet. It provides a RESTful interface for performing basic CRUD (Create, Read, Update, Delete) operations on resources, making it easy to interact with data stored on a server.This makes it useful for building apps that need to talk to a server. GoREST API follows some rules that make it easy to use and good for modern apps.</p>
 
-## 📑 API Testing- Middleman
+## 📑 API Testing
 
 <p align="justify">This project was created to complete a Group project in the Batch 11 Quality Assurance class at the Alterra Academy Immersive Program. At this project, we perform an API Automation Testing for 4 resources or end points (Users, Posts, Comments, Todos).</p>
 
